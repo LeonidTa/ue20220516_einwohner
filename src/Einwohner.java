@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Einwohner implements Comparable<Einwohner>{
     int id;
     String name;
@@ -20,6 +22,8 @@ public class Einwohner implements Comparable<Einwohner>{
                 ", Geburtsjahr=" + geburtsjahr +
                 '}';
     }
+
+
 
     @Override
     public int compareTo(Einwohner o) {
